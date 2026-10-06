@@ -1,0 +1,17 @@
+---
+title: Publications
+permalink: /publications/
+excerpt: "Publications, preprints, and work under review by Qingyue Jiao."
+---
+<p class="page-intro">My work spans AI agents, multimodal memory, medical AI, and quantum computing. <sup>*</sup> denotes equal contribution.</p>
+<p><a href="{{ site.author.googlescholar | escape }}">Google Scholar <span aria-hidden="true">↗</span></a></p>
+<nav class="section-jump" aria-label="Publication categories"><a href="#published">Published &amp; accepted</a><a href="#under-review">Under review</a><a href="#preprints">Preprints</a></nav>
+<h2 id="published">Published &amp; accepted <span class="count">4</span></h2>
+{% assign papers = site.data.publications | where: 'category', 'published' %}
+{% for paper in papers %}{% include publication-entry.html paper=paper %}{% endfor %}
+<h2 id="under-review">Under review <span class="count">4</span></h2>
+{% assign papers = site.data.publications | where: 'category', 'review' %}
+{% for paper in papers %}{% include publication-entry.html paper=paper %}{% endfor %}
+<h2 id="preprints">Preprints <span class="count">1</span></h2>
+{% assign papers = site.data.publications | where: 'category', 'preprint' %}
+{% for paper in papers %}{% include publication-entry.html paper=paper %}{% endfor %}

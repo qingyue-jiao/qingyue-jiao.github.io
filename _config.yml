@@ -1,0 +1,63 @@
+locale: en-US
+title: Qingyue Jiao
+name: Qingyue Jiao
+description: "Qingyue (Sarah) Jiao — AI agents, multimodal memory, and reliable decision-making at the University of Notre Dame."
+url: https://qingyue-jiao.github.io
+baseurl: ""
+repository: qingyue-jiao/qingyue-jiao.github.io
+remote_theme: academicpages/academicpages.github.io@c089e79c7bce7ff453de525bc0bb80c261400cf6
+site_theme: default
+title_separator: "|"
+author:
+  name: "Qingyue (Sarah) Jiao"
+  avatar: ""
+  bio: "Ph.D. Candidate in Computer Science and Engineering"
+  employer: University of Notre Dame
+  location: Notre Dame, Indiana
+  email: qjiao@nd.edu
+  github: QingyueJ-nd
+  linkedin: sarahjiao
+  googlescholar: "https://scholar.google.com/citations?user=dGSkPwgAAAAJ&hl=en"
+  cv: /files/Qingyue_Jiao_CV.pdf
+social:
+  type: Person
+  name: Qingyue Jiao
+  links:
+    - https://github.com/QingyueJ-nd
+    - https://www.linkedin.com/in/sarahjiao/
+    - https://scholar.google.com/citations?user=dGSkPwgAAAAJ&hl=en
+breadcrumbs: false
+future: true
+read_more: disabled
+atom_feed:
+  hide: true
+comments:
+  provider: false
+analytics:
+  provider: false
+include: [_pages, files]
+exclude: [README.md, CONTENT_NOTES.md, AGENTS.md, LICENSE, Gemfile, Gemfile.lock, vendor, node_modules, .bundle, preview, scripts, _config_preview.yml]
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      comments: false
+sass:
+  sass_dir: _sass
+  style: compressed
+plugins: [jekyll-remote-theme, jekyll-sitemap]
+timezone: America/New_York
+encoding: utf-8
+compress_html:
+  clippings: all
+  ignore:
+    envs: development

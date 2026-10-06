@@ -1,0 +1,9 @@
+<svg class="profile-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true" focusable="false">
+{% case include.name %}
+{% when 'email' %}<rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/>
+{% when 'scholar' %}<path d="m2 9 10-5 10 5-10 5-10-5Z"/><path d="M6 11v6c4 3 8 3 12 0v-6M22 9v8"/>
+{% when 'github' %}<path d="M9 19c-4 1-4-2-6-2m12 5v-4c0-1-.3-1.8-1-2.3 3.4-.4 6.8-1.6 6.8-7.2 0-1.6-.5-2.9-1.5-4 .1-.4.7-2-.2-4 0 0-1.2-.4-4.1 1.5a14 14 0 0 0-7.5 0C4.6-.9 3.4-.5 3.4-.5c-.9 2-.3 3.6-.2 4a6 6 0 0 0-1.5 4c0 5.6 3.4 6.8 6.8 7.2-.6.5-1 1.3-1 2.3v5" transform="translate(1 2) scale(.9)"/>
+{% when 'linkedin' %}<rect x="3" y="3" width="18" height="18" rx="2"/><path d="M7 10v7M7 7v.5M11 17v-7m0 3c0-4 6-4 6 0v4"/>
+{% when 'cv' %}<path d="M6 3h8l4 4v14H6Z"/><path d="M14 3v5h4M9 12h6M9 16h6"/>
+{% when 'location' %}<path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2"/>
+{% endcase %}</svg>

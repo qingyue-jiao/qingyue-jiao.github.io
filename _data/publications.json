@@ -1,0 +1,133 @@
+[
+  {
+    "id": "memeye",
+    "title": "MemEye: A Visual-Centric Evaluation Framework for Multimodal Agent Memory",
+    "authors": "Minghao Guo<sup>*</sup>, <strong>Qingyue Jiao<sup>*</sup></strong>, Zeru Shi<sup>*</sup>, et al.",
+    "venue": "ICLR 2027",
+    "status": "Under review",
+    "category": "review",
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2605.15128"
+      }
+    ],
+    "url": "https://arxiv.org/abs/2605.15128",
+    "summary": "A visual-centric benchmark for diagnosing lost visual details, stale evidence, and state-tracking failures in multimodal agent memory."
+  },
+  {
+    "id": "hm-rrg",
+    "title": "Hierarchical Memory for Radiology Report Generation with Rich Context",
+    "authors": "<strong>Qingyue Jiao</strong>, Jiahao Zheng, Jun Zhuang, Yiyu Shi.",
+    "venue": "MICCAI 2026",
+    "status": "",
+    "category": "published",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://papers.miccai.org/miccai-2026/0462-Paper1067.html"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/QingyueJ-nd/HM-RRG"
+      }
+    ],
+    "url": "https://papers.miccai.org/miccai-2026/0462-Paper1067.html",
+    "summary": "Hierarchical memory selects relevant evidence from retrieved cases and longitudinal patient histories for clinically accurate report generation."
+  },
+  {
+    "id": "reagan",
+    "title": "Node-as-Agent: Graph Agentic Network",
+    "authors": "Minghao Guo, Xi Zhu, <strong>Qingyue Jiao</strong>, Xiujin Liu, Haochen Xue, Chong Zhang, Shuhang Lin, Jingyuan Huang, Ziyi Ye, Yongfeng Zhang.",
+    "venue": "HCRS Workshop @ The Web Conference 2026",
+    "status": "",
+    "category": "published",
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2508.00429"
+      }
+    ],
+    "url": "https://arxiv.org/abs/2508.00429"
+  },
+  {
+    "id": "memory-survey",
+    "title": "Seeing, Maintaining, and Learning: The Evolution of Multi-modal Agent Memory",
+    "authors": "Minghao Guo<sup>*</sup>, <strong>Qingyue Jiao<sup>*</sup></strong>, Xiujin Liu, et al.",
+    "venue": "TMLR",
+    "status": "Under review, 2026",
+    "category": "review",
+    "links": [
+      {
+        "label": "OpenReview",
+        "url": "https://openreview.net/forum?id=5u8ag6LBFH"
+      },
+      {
+        "label": "Resources",
+        "url": "https://github.com/Seeing-Maintaining-Learning/multimodal-agent-memory-survey"
+      }
+    ],
+    "url": "https://openreview.net/forum?id=5u8ag6LBFH",
+    "summary": "An 80-author survey of multimodal memory representations, adaptive management, and self-evolving memory policies."
+  },
+  {
+    "id": "openpm",
+    "title": "OpenPM: Auditable Point-in-Time Evaluation for LLM Portfolio-Management Agents",
+    "authors": "Xinying Cai<sup>*</sup>, Minghao Guo<sup>*</sup>, Jiahe Liu, <strong>Qingyue Jiao</strong>, Jiaojiao Han, Bangwei Guo, Yitao Long, Yuxuan Chen, Bohan Wu, Ruochen Wen, Wenxi Dai, Dimitris N. Metaxas, Raymond Li.",
+    "venue": "ACM SIGKDD Explorations",
+    "status": "Under review, 2026",
+    "category": "review",
+    "links": [],
+    "url": null
+  },
+  {
+    "id": "agentic-rag",
+    "title": "Agentic Multimodal RAG: Roles, Decisions, and Evaluation",
+    "authors": "Tianyu Yang, Wenliang Guo, Xiujin Liu, Shijian Deng, Minghao Guo, <strong>Qingyue Jiao</strong>, et al.",
+    "venue": "TMLR",
+    "status": "Under review, 2026",
+    "category": "review",
+    "links": [
+      {
+        "label": "OpenReview",
+        "url": "https://openreview.net/forum?id=O0nzoTi2pH"
+      }
+    ],
+    "url": "https://openreview.net/forum?id=O0nzoTi2pH"
+  },
+  {
+    "id": "mediq-gan",
+    "title": "MediQ-GAN: Quantum-Inspired GAN for High Resolution Medical Image Generation",
+    "authors": "<strong>Qingyue Jiao</strong>, Yongcan Tang, Jun Zhuang, Jason Cong, Yiyu Shi.",
+    "venue": "Preprint, 2025",
+    "status": "",
+    "category": "preprint",
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2506.21015"
+      }
+    ],
+    "url": "https://arxiv.org/abs/2506.21015"
+  },
+  {
+    "id": "qaoa",
+    "title": "A Comparison on Constrain Encoding Methods for Quantum Approximate Optimization Algorithm",
+    "authors": "Yiwen Liu<sup>*</sup>, <strong>Qingyue Jiao<sup>*</sup></strong>, Yiyu Shi, Ke Wan, Shangjie Guo.",
+    "venue": "ICCAD 2024",
+    "status": "",
+    "category": "published",
+    "links": [],
+    "url": null
+  },
+  {
+    "id": "drug-discovery",
+    "title": "Synergizing Quantum Techniques with Machine Learning for Advancing Drug Discovery Challenge",
+    "authors": "Zhiding Liang, Zichang He, Yue Sun, Dylan Herman, <strong>Qingyue Jiao</strong>, et al.",
+    "venue": "Scientific Reports, 14:31216, 2024",
+    "status": "",
+    "category": "published",
+    "links": [],
+    "url": null
+  }
+]
