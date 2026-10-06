@@ -8,7 +8,7 @@ I am a third-year Ph.D. candidate in **Computer Science and Engineering at the U
 
 I build and evaluate systems that help **AI agents remember, reason, and make reliable decisions**, with a focus on multimodal memory, retrieval-augmented generation, and decision-making under uncertainty.
 
-<div class="availability">I’m open to <strong>research collaborations and internship opportunities</strong>—please feel free to <a href="mailto:qjiao@nd.edu">get in touch</a>.</div>
+<div class="availability">I am open to <strong>research collaborations and internship opportunities</strong>—please feel free to <a href="mailto:qjiao@nd.edu">get in touch</a>.</div>
 
 
 ## Selected work

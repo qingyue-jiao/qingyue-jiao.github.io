@@ -94,4 +94,4 @@ a:hover,.site-navigation a:hover,.resource-links a:hover,.profile-contact a:hove
 /* Frame the original conference photo as a head-and-shoulders portrait.
    Percentages preserve the same crop at desktop and mobile avatar sizes. */
 .profile-photo{position:relative;overflow:hidden;padding:0;flex-shrink:0;background:#f8f2f5}
-.profile-photo img{position:absolute;display:block;width:256%;max-width:none!important;height:auto;left:-43%;top:-155%;margin:0;padding:0;border:0;border-radius:0}
+.profile-photo img{position:absolute;display:block;width:256%;max-width:none!important;height:auto;left:-43%;top:-164%;margin:0;padding:0;border:0;border-radius:0}
