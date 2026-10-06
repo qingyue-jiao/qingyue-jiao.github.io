@@ -1,10 +1,10 @@
 ---
-title: Resume
+title: Curriculum Vitae
 permalink: /cv/
-excerpt: "Education, research experience, skills, and downloadable resume for Qingyue Jiao."
+excerpt: "Education, research experience, skills, and downloadable CV for Qingyue Jiao."
 ---
 
-<p><a class="cv-download" href="{{ '/files/Qingyue_Jiao_CV.pdf' | relative_url }}">{% include icon.html name='cv' %} Download Resume <span>PDF · 2 pages</span></a></p>
+<p><a class="cv-download" href="{{ '/files/Qingyue_Jiao_CV.pdf' | relative_url }}">{% include icon.html name='cv' %} Download CV <span>PDF · 2 pages</span></a></p>
 
 I am a Ph.D. candidate specializing in **memory architectures, memory evaluation, and decision-making for AI agents**, with experience designing multimodal memory systems, evaluation systems, and tool-use workflows.
 

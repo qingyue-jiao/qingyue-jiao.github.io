@@ -10,11 +10,6 @@ I build and evaluate systems that help **AI agents remember, reason, and make re
 
 <div class="availability"><strong>Open to research and engineering internships</strong> in AI agents, multimodal learning, and large language models.</div>
 
-<div class="home-actions" aria-label="Resume and contact links">
-  <a class="home-action-primary" href="{{ site.author.cv | relative_url }}">{% include icon.html name='cv' %} Download Resume <small>PDF</small></a>
-  <a href="mailto:{{ site.author.email }}">{% include icon.html name='email' %} Email</a>
-  <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}/">{% include icon.html name='linkedin' %} LinkedIn</a>
-</div>
 
 ## Selected work
 

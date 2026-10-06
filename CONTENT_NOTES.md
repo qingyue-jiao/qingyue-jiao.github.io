@@ -32,3 +32,7 @@ Applied dusty rose #986575 for accents and #7c4f5d for hover, keeping white back
 ## Industry readability update — October 6, 2026
 
 Homepage order: short introduction, internship notice and resume/contact actions, selected work, news. Education remains on the Resume page. Research & Projects uses problem, individual contribution, and result/output labels. Metrics and contributions follow the resume. Added the verified MemEye project page for examples, code, and dataset access. No residency information was added to the website copy.
+
+## Minimal presentation update — October 6, 2026
+
+Removed the duplicate homepage resume/email/LinkedIn action row at the user’s request. Sidebar download link is Curriculum Vitae, navigation label is CV, and the CV page title is Curriculum Vitae. Replaced dusty rose with blue #245a81 and hover #163e5c, using white backgrounds and charcoal text.
