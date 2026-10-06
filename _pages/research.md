@@ -21,9 +21,9 @@ A two-axis benchmark that separates **visual-detail retention** from **reasoning
 
 ### Seeing, Maintaining, and Learning
 
-A survey of how multimodal agents represent experience, maintain memory, and learn from accumulated experience and feedback.
+A unified taxonomy of how multimodal agents represent experience, adapt memory management, and learn from accumulated experience and feedback, connecting architectural choices with evaluation needs.
 
-- Co-organized an **80-author collaboration** and co-developed a taxonomy covering representations, adaptive management, and self-evolving memory policies.
+- Co-developed a **two-axis taxonomy** connecting memory formation and representation with management adaptivity, distinguishing static, dynamic, and self-evolving memory systems.
 - Curated **296 memory architectures and 83 evaluation resources across five modality categories**; analyzed evidence preservation, storage efficiency, and temporal consistency.
 
 <p class="resource-links"><a href="https://openreview.net/forum?id=5u8ag6LBFH">OpenReview ↗</a><a href="https://github.com/Seeing-Maintaining-Learning/multimodal-agent-memory-survey">Survey resources ↗</a></p>

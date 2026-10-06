@@ -68,7 +68,7 @@
       }
     ],
     "url": "https://openreview.net/forum?id=5u8ag6LBFH",
-    "summary": "An 80-author survey of multimodal memory representations, adaptive management, and self-evolving memory policies."
+    "summary": "A unified taxonomy of multimodal agent memory, connecting memory representation, adaptive management, and self-evolving policies across 296 architectures and 83 evaluation resources."
   },
   {
     "id": "openpm",
