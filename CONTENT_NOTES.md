@@ -36,3 +36,7 @@ Homepage order: short introduction, internship notice and resume/contact actions
 ## Minimal presentation update — October 6, 2026
 
 Removed the duplicate homepage resume/email/LinkedIn action row at the user’s request. Sidebar download link is Curriculum Vitae, navigation label is CV, and the CV page title is Curriculum Vitae. Replaced dusty rose with blue #245a81 and hover #163e5c, using white backgrounds and charcoal text.
+
+## Centering and personal accent update — October 6, 2026
+
+Reduced the aligned header, content, and footer containers from 1160px to 1000px. Desktop sidebar is 200px with a 44px gap, giving the main text approximately 684px. Stacked layout starts at 760px. The accent is ink blue #465c88, with hover #304568 and a subtle iris-tinted initials background #f2f3f9.
