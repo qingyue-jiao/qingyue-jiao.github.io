@@ -1,17 +1,14 @@
 ---
 title: Publications
 permalink: /publications/
-excerpt: "Publications, preprints, and work under review by Qingyue Jiao."
+excerpt: "Research publications in LLM agents, multimodal learning, and quantum computing by Qingyue Jiao."
 ---
-<p class="page-intro">My work spans AI agents, multimodal memory, medical AI, and quantum computing. <sup>*</sup> denotes equal contribution.</p>
+<p class="page-intro">My work spans LLM agents, multimodal learning, and quantum computing. <sup>*</sup> denotes equal contribution.</p>
 <p><a href="{{ site.author.googlescholar | escape }}">Google Scholar <span aria-hidden="true">↗</span></a></p>
-<nav class="section-jump" aria-label="Publication categories"><a href="#published">Published &amp; accepted</a><a href="#under-review">Under review</a><a href="#preprints">Preprints</a></nav>
-<h2 id="published">Published &amp; accepted <span class="count">4</span></h2>
-{% assign papers = site.data.publications | where: 'category', 'published' %}
-{% for paper in papers %}{% include publication-entry.html paper=paper %}{% endfor %}
-<h2 id="under-review">Under review <span class="count">4</span></h2>
-{% assign papers = site.data.publications | where: 'category', 'review' %}
-{% for paper in papers %}{% include publication-entry.html paper=paper %}{% endfor %}
-<h2 id="preprints">Preprints <span class="count">1</span></h2>
-{% assign papers = site.data.publications | where: 'category', 'preprint' %}
-{% for paper in papers %}{% include publication-entry.html paper=paper %}{% endfor %}
+<nav class="section-jump" aria-label="Publication topics"><a href="#llm-agents">LLM Agents &amp; Multimodal Learning</a><a href="#quantum-computing">Quantum Computing</a></nav>
+{% assign agent_papers = site.data.publications | where: 'topic', 'agents' %}
+<h2 id="llm-agents">LLM Agents &amp; Multimodal Learning <span class="count">{{ agent_papers.size }}</span></h2>
+{% for paper in agent_papers %}{% include publication-entry.html paper=paper %}{% endfor %}
+{% assign quantum_papers = site.data.publications | where: 'topic', 'quantum' %}
+<h2 id="quantum-computing">Quantum Computing <span class="count">{{ quantum_papers.size }}</span></h2>
+{% for paper in quantum_papers %}{% include publication-entry.html paper=paper %}{% endfor %}

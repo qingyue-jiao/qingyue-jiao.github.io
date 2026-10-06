@@ -15,7 +15,7 @@ I am a Ph.D. candidate specializing in **memory architectures, memory evaluation
 ## Research experience
 
 **University of Notre Dame** · Sep 2024–present  
-Ph.D. Candidate, advised by Prof. Yiyu Shi
+Ph.D. Candidate, advised by [Prof. Yiyu Shi](https://cse.nd.edu/faculty/yiyu-shi/)
 
 - **MemEye:** visual-centric evaluation of multimodal agent memory.
 - **HM-RRG:** hierarchical memory for generation from long clinical contexts.

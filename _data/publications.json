@@ -13,7 +13,8 @@
       }
     ],
     "url": "https://arxiv.org/abs/2605.15128",
-    "summary": "A visual-centric benchmark for diagnosing lost visual details, stale evidence, and state-tracking failures in multimodal agent memory."
+    "summary": "A visual-centric benchmark for diagnosing lost visual details, stale evidence, and state-tracking failures in multimodal agent memory.",
+    "topic": "agents"
   },
   {
     "id": "hm-rrg",
@@ -33,7 +34,8 @@
       }
     ],
     "url": "https://papers.miccai.org/miccai-2026/0462-Paper1067.html",
-    "summary": "Hierarchical memory selects relevant evidence from retrieved cases and longitudinal patient histories for clinically accurate report generation."
+    "summary": "Hierarchical memory selects relevant evidence from retrieved cases and longitudinal patient histories for clinically accurate report generation.",
+    "topic": "agents"
   },
   {
     "id": "reagan",
@@ -48,7 +50,8 @@
         "url": "https://arxiv.org/abs/2508.00429"
       }
     ],
-    "url": "https://arxiv.org/abs/2508.00429"
+    "url": "https://arxiv.org/abs/2508.00429",
+    "topic": "agents"
   },
   {
     "id": "memory-survey",
@@ -68,7 +71,8 @@
       }
     ],
     "url": "https://openreview.net/forum?id=5u8ag6LBFH",
-    "summary": "A unified taxonomy of multimodal agent memory, connecting memory representation, adaptive management, and self-evolving policies across 296 architectures and 83 evaluation resources."
+    "summary": "A unified taxonomy of multimodal agent memory, connecting memory representation, adaptive management, and self-evolving policies across 296 architectures and 83 evaluation resources.",
+    "topic": "agents"
   },
   {
     "id": "openpm",
@@ -77,8 +81,14 @@
     "venue": "ACM SIGKDD Explorations",
     "status": "Under review, 2026",
     "category": "review",
-    "links": [],
-    "url": null
+    "links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2608.09988"
+      }
+    ],
+    "url": "https://arxiv.org/abs/2608.09988",
+    "topic": "agents"
   },
   {
     "id": "agentic-rag",
@@ -93,7 +103,8 @@
         "url": "https://openreview.net/forum?id=O0nzoTi2pH"
       }
     ],
-    "url": "https://openreview.net/forum?id=O0nzoTi2pH"
+    "url": "https://openreview.net/forum?id=O0nzoTi2pH",
+    "topic": "agents"
   },
   {
     "id": "mediq-gan",
@@ -108,7 +119,8 @@
         "url": "https://arxiv.org/abs/2506.21015"
       }
     ],
-    "url": "https://arxiv.org/abs/2506.21015"
+    "url": "https://arxiv.org/abs/2506.21015",
+    "topic": "quantum"
   },
   {
     "id": "qaoa",
@@ -117,8 +129,18 @@
     "venue": "ICCAD 2024",
     "status": "",
     "category": "published",
-    "links": [],
-    "url": null
+    "links": [
+      {
+        "label": "Published paper",
+        "url": "https://doi.org/10.1145/3676536.3697126"
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2410.04030"
+      }
+    ],
+    "url": "https://doi.org/10.1145/3676536.3697126",
+    "topic": "quantum"
   },
   {
     "id": "drug-discovery",
@@ -127,7 +149,13 @@
     "venue": "Scientific Reports, 14:31216, 2024",
     "status": "",
     "category": "published",
-    "links": [],
-    "url": null
+    "links": [
+      {
+        "label": "Published paper",
+        "url": "https://www.nature.com/articles/s41598-024-82576-4"
+      }
+    ],
+    "url": "https://www.nature.com/articles/s41598-024-82576-4",
+    "topic": "quantum"
   }
 ]

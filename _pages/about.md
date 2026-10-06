@@ -4,7 +4,7 @@ permalink: /
 excerpt: "Qingyue Jiao is a Ph.D. candidate at Notre Dame working on AI agents, multimodal memory, and reliable decision-making."
 ---
 
-I am a third-year Ph.D. candidate in **Computer Science and Engineering at the University of Notre Dame**, advised by **Prof. Yiyu Shi**. Previously, I earned my M.S. in Computer Science from Columbia University and my B.S. in Computer Science and Physics from the University of Michigan.
+I am a third-year Ph.D. candidate in **Computer Science and Engineering at the University of Notre Dame**, advised by **[Prof. Yiyu Shi](https://cse.nd.edu/faculty/yiyu-shi/)**. Previously, I earned my M.S. in Computer Science from Columbia University and my B.S. in Computer Science and Physics from the University of Michigan.
 
 My research focuses on helping **AI agents remember, reason, and make reliable decisions**. I work on multimodal memory architectures, memory evaluation, and decision-making under uncertainty, with the goal of improving evidence-grounded reasoning across multi-turn tasks.
 

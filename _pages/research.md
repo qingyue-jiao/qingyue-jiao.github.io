@@ -4,7 +4,7 @@ permalink: /research/
 excerpt: "Research on multimodal memory, agent evaluation, reliable tool use, and memory-augmented generation."
 ---
 
-I design memory systems, evaluations, and decision-making methods for AI agents. My doctoral research at the **University of Notre Dame**, advised by **Prof. Yiyu Shi**, focuses on how agents preserve evidence and use it reliably over time.
+I design memory systems, evaluations, and decision-making methods for AI agents. My doctoral research at the **University of Notre Dame**, advised by **[Prof. Yiyu Shi](https://cse.nd.edu/faculty/yiyu-shi/)**, focuses on how agents preserve evidence and use it reliably over time.
 
 <nav class="section-jump" aria-label="Research topics"><a href="#memory">Memory & evaluation</a><a href="#decisions">Agent decisions</a><a href="#generation">Multimodal generation</a></nav>
 
