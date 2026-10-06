@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Qingyue (Sarah) Jiao is a Ph.D. researcher at the University of Notre Dame working on multimodal agent memory, evaluation, and reliable agent decision-making.">
+  <meta name="theme-color" content="#ffffff">
+  <meta property="og:title" content="Qingyue Jiao | AI Agents & Multimodal Memory">
+  <meta property="og:description" content="Research on helping AI agents remember, reason, and make reliable decisions.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://qingyue-jiao.github.io/">
+  <link rel="canonical" href="https://qingyue-jiao.github.io/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <title>Qingyue Jiao</title>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="page">
+    <header class="profile">
+      <div class="monogram" aria-hidden="true">QJ</div>
+      <div>
+        <h1>Qingyue <span>(Sarah)</span> Jiao</h1>
+        <p class="role">Ph.D. Candidate, Computer Science and Engineering</p>
+        <p class="affiliation">University of Notre Dame</p>
+        <ul class="profile-links" aria-label="Contact and profiles">
+          <li><a href="mailto:qjiao@nd.edu">Email</a></li>
+          <li><a href="https://github.com/QingyueJ-nd">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/sarahjiao/">LinkedIn</a></li>
+          <li><a href="assets/Qingyue_Jiao_CV.pdf">CV <span class="file-type">PDF</span></a></li>
+        </ul>
+      </div>
+    </header>
+    <nav class="navigation" aria-label="Page sections">
+      <a href="#about">About</a><a href="#research">Research</a><a href="#publications">Publications</a><a href="#education">Education</a>
+    </nav>
+    <main id="main">
+      <section id="about" aria-labelledby="about-heading">
+        <h2 id="about-heading" class="visually-hidden">About me</h2>
+        <p>I am a third-year Ph.D. candidate in Computer Science and Engineering at the <strong>University of Notre Dame</strong>, advised by <strong>Prof. Yiyu Shi</strong>. Previously, I earned my M.S. in Computer Science from Columbia University and my B.S. in Computer Science and Physics from the University of Michigan.</p>
+        <p>My research focuses on helping <strong>AI agents remember, reason, and make reliable decisions</strong>. I develop multimodal memory systems and evaluations, study decision-making under uncertainty, and build memory architectures for generation from long contexts.</p>
+        <p class="opportunities">I am seeking research or engineering internships in AI agents, multimodal learning, and large language models. I welcome research collaborations—please <a href="mailto:qjiao@nd.edu">get in touch</a>.</p>
+      </section>
+      <section id="news" aria-labelledby="news-heading">
+        <h2 id="news-heading">News</h2>
+        <ul class="news-list">
+          <li><time datetime="2026-09">Sep 2026</time><span>Our work on <a href="https://papers.miccai.org/miccai-2026/0462-Paper1067.html">hierarchical memory for radiology report generation</a> appears at <strong>MICCAI 2026</strong>.</span></li>
+          <li><time datetime="2026-05">May 2026</time><span><a href="https://arxiv.org/abs/2605.15128">MemEye</a>, our benchmark for multimodal agent memory, is available on arXiv.</span></li>
+        </ul>
+      </section>
+      <section id="research" aria-labelledby="research-heading">
+        <h2 id="research-heading">Research</h2>
+        <div class="research-item"><h3>Multimodal agent memory & evaluation</h3><p>Studying how agents preserve visual details, track changing states, and retrieve the right evidence. My work includes <a href="#memeye">MemEye</a> and our <a href="#memory-survey">survey of multimodal agent memory</a>.</p></div>
+        <div class="research-item"><h3>Reliable agent decision-making</h3><p>Investigating when tool-using agents should ask for clarification, search for information, act, or escalate under uncertainty, balancing task success, interaction cost, and irreversible error risk.</p></div>
+        <div class="research-item"><h3>Memory architectures & retrieval-augmented generation</h3><p>Organizing long, noisy contexts into useful evidence. <a href="#hm-rrg">HM-RRG</a> combines hierarchical memory with retrieved cases and longitudinal patient histories to improve clinical accuracy.</p></div>
+      </section>
+      <section id="publications" aria-labelledby="publications-heading">
+        <h2 id="publications-heading">Publications</h2>
+        <p class="publication-note"><sup>*</sup> Equal contribution</p>
+        <h3 class="group-heading">AI agents, memory & multimodal learning</h3>
+        <ol class="publications">
+          <li id="memeye">
+            <h4>MemEye: A Visual-Centric Evaluation Framework for Multimodal Agent Memory</h4>
+            <p class="authors">Minghao Guo<sup>*</sup>, <strong>Qingyue Jiao<sup>*</sup></strong>, Zeru Shi<sup>*</sup>, et al.</p>
+            <p class="venue"><strong>ICLR 2027</strong> <span class="status">· Under review</span></p>
+            <p class="paper-links"><a href="https://arxiv.org/abs/2605.15128">arXiv</a></p>
+          </li>
+          <li id="hm-rrg">
+            <h4>Hierarchical Memory for Radiology Report Generation with Rich Context</h4>
+            <p class="authors"><strong>Qingyue Jiao</strong>, Jiahao Zheng, Jun Zhuang, Yiyu Shi.</p>
+            <p class="venue"><strong>MICCAI 2026</strong></p>
+            <p class="paper-links"><a href="https://papers.miccai.org/miccai-2026/0462-Paper1067.html">Paper</a><a href="https://github.com/QingyueJ-nd/HM-RRG">Code</a></p>
+          </li>
+          <li>
+            <h4>Node-as-Agent: Graph Agentic Network</h4>
+            <p class="authors">Minghao Guo, Xi Zhu, <strong>Qingyue Jiao</strong>, Xiujin Liu, Haochen Xue, Chong Zhang, Shuhang Lin, Jingyuan Huang, Ziyi Ye, Yongfeng Zhang.</p>
+            <p class="venue"><strong>HCRS Workshop @ The Web Conference 2026</strong></p>
+            <p class="paper-links"><a href="https://arxiv.org/abs/2508.00429">arXiv</a></p>
+          </li>
+          <li id="memory-survey">
+            <h4>Seeing, Maintaining, and Learning: The Evolution of Multi-modal Agent Memory</h4>
+            <p class="authors">Minghao Guo<sup>*</sup>, <strong>Qingyue Jiao<sup>*</sup></strong>, Xiujin Liu, et al.</p>
+            <p class="venue"><strong>TMLR</strong> <span class="status">· Under review, 2026</span></p>
+            <p class="paper-links"><a href="https://openreview.net/forum?id=5u8ag6LBFH">OpenReview</a><a href="https://github.com/Seeing-Maintaining-Learning/multimodal-agent-memory-survey">Resources</a></p>
+          </li>
+          <li>
+            <h4>OpenPM: Auditable Point-in-Time Evaluation for LLM Portfolio-Management Agents</h4>
+            <p class="authors">Xinying Cai<sup>*</sup>, Minghao Guo<sup>*</sup>, Jiahe Liu, <strong>Qingyue Jiao</strong>, Jiaojiao Han, Bangwei Guo, Yitao Long, Yuxuan Chen, Bohan Wu, Ruochen Wen, Wenxi Dai, Dimitris N. Metaxas, Raymond Li.</p>
+            <p class="venue"><strong>ACM SIGKDD Explorations</strong> <span class="status">· Under review, 2026</span></p>
+          </li>
+          <li>
+            <h4>Agentic Multimodal RAG: Roles, Decisions, and Evaluation</h4>
+            <p class="authors">Tianyu Yang, Wenliang Guo, Xiujin Liu, Shijian Deng, Minghao Guo, <strong>Qingyue Jiao</strong>, et al.</p>
+            <p class="venue"><strong>TMLR</strong> <span class="status">· Under review, 2026</span></p>
+            <p class="paper-links"><a href="https://openreview.net/forum?id=O0nzoTi2pH">OpenReview</a></p>
+          </li>
+          <li>
+            <h4>MediQ-GAN: Quantum-Inspired GAN for High Resolution Medical Image Generation</h4>
+            <p class="authors"><strong>Qingyue Jiao</strong>, Yongcan Tang, Jun Zhuang, Jason Cong, Yiyu Shi.</p>
+            <p class="venue">Preprint, 2025</p>
+            <p class="paper-links"><a href="https://arxiv.org/abs/2506.21015">arXiv</a></p>
+          </li>
+        </ol>
+        <h3 class="group-heading">Quantum computing & applications</h3>
+        <ol class="publications" start="8">
+          <li>
+            <h4>A Comparison on Constrain Encoding Methods for Quantum Approximate Optimization Algorithm</h4>
+            <p class="authors">Yiwen Liu<sup>*</sup>, <strong>Qingyue Jiao<sup>*</sup></strong>, Yiyu Shi, Ke Wan, Shangjie Guo.</p>
+            <p class="venue"><strong>ICCAD 2024</strong></p>
+          </li>
+          <li>
+            <h4>Synergizing Quantum Techniques with Machine Learning for Advancing Drug Discovery Challenge</h4>
+            <p class="authors">Zhiding Liang, Zichang He, Yue Sun, Dylan Herman, <strong>Qingyue Jiao</strong>, et al.</p>
+            <p class="venue"><strong>Scientific Reports</strong>, 14:31216, 2024</p>
+          </li>
+        </ol>
+      </section>
+      <section id="education" aria-labelledby="education-heading">
+        <h2 id="education-heading">Education</h2>
+        <div class="education-item"><div><h3>University of Notre Dame</h3><p>Ph.D., Computer Science and Engineering<br><span class="muted">Advisor: Prof. Yiyu Shi</span></p></div><span class="dates">2024–present</span></div>
+        <div class="education-item"><div><h3>Columbia University</h3><p>M.S., Computer Science</p></div><span class="dates">2022–2023</span></div>
+        <div class="education-item"><div><h3>University of Michigan, Ann Arbor</h3><p>B.S., Computer Science and Physics</p></div><span class="dates">2018–2022</span></div>
+      </section>
+    </main>
+    <footer><span>© 2026 Qingyue Jiao</span><a href="mailto:qjiao@nd.edu">qjiao@nd.edu</a></footer>
+  </div>
+</body>
+</html>
