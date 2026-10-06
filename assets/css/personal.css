@@ -80,3 +80,13 @@ a{color:#986575;text-underline-offset:3px}a:hover{color:#7c4f5d}a:focus-visible{
 /* Keep rose accents consistent across more-specific link rules. */
 a:hover,.site-navigation a:hover,.resource-links a:hover,.profile-contact a:hover,.publication-entry h3 a:hover{color:#7c4f5d}
 .availability{background:#fdfbfc}
+
+/* Hiring readers: prominent actions and navigation that wraps on small screens. */
+.home-actions{display:flex;flex-wrap:wrap;align-items:center;gap:12px 22px;margin:-10px 0 28px;font-size:14px}
+.home-actions a{display:inline-flex;align-items:center;gap:8px;min-height:42px;font-weight:500}
+.home-actions .home-action-primary{padding:8px 14px;border:1px solid #986575;border-radius:3px;background:#ffffff}
+.home-actions small{font-size:10px;color:#555;font-weight:400}
+.home-actions .profile-icon{color:currentColor}
+.site-navigation{flex-wrap:wrap}
+@media(max-width:900px){.site-navigation{gap:12px 20px}.masthead__inner-wrap.personal-masthead{gap:20px}}
+@media(max-width:680px){.site-navigation{gap:9px 18px}.home-actions{gap:8px 18px;font-size:13px}.home-actions .home-action-primary{padding:7px 11px}}

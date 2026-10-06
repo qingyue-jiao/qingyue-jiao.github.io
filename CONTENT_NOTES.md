@@ -28,3 +28,7 @@ Added OpenPM arXiv 2608.09988, QAOA arXiv 2410.04030 and published DOI 10.1145/3
 ## Palette update — October 6, 2026
 
 Applied dusty rose #986575 for accents and #7c4f5d for hover, keeping white backgrounds and charcoal headings. The user confirmed that OpenPM’s public arXiv author list has not yet been updated; the resume author list remains authoritative.
+
+## Industry readability update — October 6, 2026
+
+Homepage order: short introduction, internship notice and resume/contact actions, selected work, news. Education remains on the Resume page. Research & Projects uses problem, individual contribution, and result/output labels. Metrics and contributions follow the resume. Added the verified MemEye project page for examples, code, and dataset access. No residency information was added to the website copy.

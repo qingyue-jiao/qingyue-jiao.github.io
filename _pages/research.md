@@ -1,10 +1,10 @@
 ---
-title: Research
+title: "Research & Projects"
 permalink: /research/
-excerpt: "Research on multimodal memory, agent evaluation, reliable tool use, and memory-augmented generation."
+excerpt: "Selected projects, individual contributions, and results in AI agents, multimodal memory, and generation."
 ---
 
-I design memory systems, evaluations, and decision-making methods for AI agents. My doctoral research at the **University of Notre Dame**, advised by **[Prof. Yiyu Shi](https://cse.nd.edu/faculty/yiyu-shi/)**, focuses on how agents preserve evidence and use it reliably over time.
+My research at the **University of Notre Dame**, advised by **[Prof. Yiyu Shi](https://cse.nd.edu/faculty/yiyu-shi/)**, focuses on building and evaluating reliable AI agents. Below are the problems I work on, my contributions, and the resulting systems and findings.
 
 <nav class="section-jump" aria-label="Research topics"><a href="#memory">Memory & evaluation</a><a href="#decisions">Agent decisions</a><a href="#generation">Multimodal generation</a></nav>
 
@@ -12,56 +12,62 @@ I design memory systems, evaluations, and decision-making methods for AI agents.
 
 ### MemEye: Evaluating multimodal agent memory
 
-A two-axis benchmark that separates **visual-detail retention** from **reasoning over changing states**, enabling targeted diagnosis of agent memory failures.
+**Problem.** Agents can lose visual details or retrieve outdated evidence across conversations. Evaluations need to distinguish these failures from reasoning errors.
 
-- Built a benchmark-construction pipeline with checks for answerability, visual dependence, and textual shortcuts; expanded coverage to **1,200 questions across eight scenarios and 12 categories**.
-- Evaluated **13 memory methods across four VLM backbones**, identifying lost visual details, stale retrieval, and state-tracking failures as bottlenecks.
+**My contribution.** Built a **benchmark-construction pipeline** with checks for answerability, visual dependence, and textual shortcuts; expanded coverage to 1,200 questions across eight scenarios and 12 categories.
 
-<p class="resource-links"><a href="https://arxiv.org/abs/2605.15128">Paper ↗</a><a href="{{ '/publications/#memeye' | relative_url }}">Publication details →</a></p>
+**Result.** Evaluated **13 memory methods across four VLM backbones**, identifying visual-detail loss, stale retrieval, and state-tracking failures as bottlenecks.
 
-### Seeing, Maintaining, and Learning
+<p class="resource-links"><a href="https://arxiv.org/abs/2605.15128">Paper ↗</a><a href="https://minghokwok.github.io/MemEye/">Project &amp; examples ↗</a><a href="https://github.com/MinghoKwok/MemEye">Code ↗</a><a href="https://huggingface.co/datasets/MemEyeBench/MemEye">Dataset ↗</a></p>
 
-A unified taxonomy of how multimodal agents represent experience, adapt memory management, and learn from accumulated experience and feedback, connecting architectural choices with evaluation needs.
+### Seeing, Maintaining, and Learning: Multimodal agent memory survey
 
-- Co-developed a **two-axis taxonomy** connecting memory formation and representation with management adaptivity, distinguishing static, dynamic, and self-evolving memory systems.
-- Curated **296 memory architectures and 83 evaluation resources across five modality categories**; analyzed evidence preservation, storage efficiency, and temporal consistency.
+**Problem.** Comparing memory systems requires a shared view of how they represent evidence, manage updates, and learn from experience.
 
-<p class="resource-links"><a href="https://openreview.net/forum?id=5u8ag6LBFH">OpenReview ↗</a><a href="https://github.com/Seeing-Maintaining-Learning/multimodal-agent-memory-survey">Survey resources ↗</a></p>
+**My contribution.** Co-developed a **two-axis taxonomy** connecting memory formation and representation with management adaptivity, distinguishing static, dynamic, and self-evolving systems.
+
+**Result.** Curated **296 memory architectures and 83 evaluation resources across five modality categories**, connecting architectural choices with evidence preservation, storage efficiency, and temporal consistency.
+
+<p class="resource-links"><a href="https://openreview.net/forum?id=5u8ag6LBFH">Paper ↗</a><a href="https://github.com/Seeing-Maintaining-Learning/multimodal-agent-memory-survey">Survey resources ↗</a></p>
 
 ## Reliable agent decisions {#decisions}
 
 ### Agent Last Doubt: Risk-aware tool use
 
-A framework for tool-using LLM agents to **clarify, search, act, or escalate under uncertainty**, balancing expected task success, interaction cost, and irreversible error risk.
+**Problem.** Tool-using agents must decide when to clarify, search, act, or escalate while balancing task success, interaction cost, and irreversible error risk.
 
-- Designed an action-conditioned value model that predicts success, cost, and critical errors separately, enabling configurable inference-time trade-offs without retraining the backbone.
-- Built a counterfactual rollout pipeline on **ToolSandbox and τ²-bench** to compare alternative interventions from identical snapshots and generate outcome-based supervision.
+**My contribution.** Designed an **action-conditioned value model** that predicts success, cost, and critical errors separately, supporting configurable inference-time trade-offs with a fixed backbone.
+
+**Output.** Built a **counterfactual rollout pipeline on ToolSandbox and τ²-bench** to compare interventions from identical snapshots and generate outcome-based supervision.
 
 ### Node-as-Agent: Graph Agentic Network
 
-**ReaGAN** is a training-free, LLM-powered Node-as-Agent framework for node classification, combining local graph aggregation with global retrieval.
+**Problem.** Node classification requires combining local graph structure with relevant evidence beyond a node’s immediate neighbors.
 
-- Designed local-global memory that combines graph-neighbor evidence with semantically relevant nodes retrieved through RAG.
-- Evaluated a frozen **Qwen2.5-14B** model on Cora, Citeseer, and Chameleon; achieved **84.95% accuracy on Cora** without task-specific fine-tuning.
+**My contribution.** Designed **local-global memory** for ReaGAN, a training-free, LLM-powered Node-as-Agent framework, combining graph-neighbor evidence with semantically relevant nodes retrieved through RAG.
+
+**Result.** Evaluated frozen **Qwen2.5-14B** on Cora, Citeseer, and Chameleon; achieved **84.95% accuracy on Cora** without task-specific fine-tuning.
 
 <p class="resource-links"><a href="https://arxiv.org/abs/2508.00429">Paper ↗</a></p>
 
 ## Multimodal generation {#generation}
 
-### Hierarchical memory for radiology report generation
+### HM-RRG: Hierarchical memory for radiology report generation
 
-**HM-RRG** combines hierarchical memory and retrieval-augmented generation to ground chest X-ray reports in similar cases and longitudinal patient histories.
+**Problem.** Generating clinically accurate chest X-ray reports requires selecting relevant evidence from retrieved cases and long patient histories.
 
-- Implemented image-conditioned memory compression, segment-level retrieval, and **LoRA-based fine-tuning of BioMistral-7B**.
-- Improved CheXbert clinical F1 from **0.483 to 0.580** over flat context concatenation on MIMIC-CXR, a **20.1% relative improvement**.
+**My contribution.** Implemented **image-conditioned memory compression, segment-level retrieval, and LoRA fine-tuning of BioMistral-7B** within a hierarchical memory and RAG framework.
 
-<p class="resource-links"><a href="https://papers.miccai.org/miccai-2026/0462-Paper1067.html">MICCAI 2026 paper ↗</a><a href="https://github.com/QingyueJ-nd/HM-RRG">Code ↗</a></p>
+**Result.** Improved CheXbert clinical F1 from **0.483 to 0.580** over flat context concatenation on **MIMIC-CXR**, a 20.1% relative improvement. Published at MICCAI 2026.
+
+<p class="resource-links"><a href="https://papers.miccai.org/miccai-2026/0462-Paper1067.html">Paper ↗</a><a href="https://github.com/QingyueJ-nd/HM-RRG">Code ↗</a></p>
 
 ### MediQ-GAN: Medical image generation from limited data
 
-A prototype-conditioned hybrid GAN combining classical and quantum-inspired modules for **synthetic data augmentation** of underrepresented medical image classes.
+**Problem.** Underrepresented medical image classes can limit classifier performance when training data are scarce.
 
-- Ran augmentation experiments across three datasets and two classifier backbones; improved ViT-small accuracy on ISIC2019 from **72.49% to 82.60%**.
-- Analyzed generator Jacobian spectra and effective rank to diagnose mode collapse and characterize latent-space utilization.
+**My contribution.** Ran **synthetic data augmentation** experiments with a prototype-conditioned hybrid GAN across three datasets and two classifier backbones. Analyzed generator Jacobian spectra and effective rank to diagnose mode collapse and latent-space utilization.
+
+**Result.** Improved **ViT-small accuracy on ISIC2019 from 72.49% to 82.60%** using augmentation with the model’s generated images.
 
 <p class="resource-links"><a href="https://arxiv.org/abs/2506.21015">Paper ↗</a></p>
