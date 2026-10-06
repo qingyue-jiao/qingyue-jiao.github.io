@@ -10,7 +10,7 @@ Google Scholar: https://scholar.google.com/citations?user=dGSkPwgAAAAJ&hl=en
 
 ## Resources to add
 
-- A portrait/headshot. The current site uses an intentional QJ monogram.
+- Portrait supplied: IMG_3910.JPG, shown as a circular head-and-shoulders crop.
 - Optional research figures or publication thumbnails.
 - Public paper/code/demo links for projects where none were provided, especially Agent Last Doubt. Missing links are omitted instead of using placeholders.
 - Optional service, teaching, awards, and talks, if these should appear and verified details are provided.
@@ -44,3 +44,7 @@ Reduced the aligned header, content, and footer containers from 1160px to 1000px
 ## Mulberry palette — October 6, 2026
 
 Updated the accent to mulberry #874c68, hover #68374f, and the initials background to #f8f2f5. The centered layout and content are unchanged.
+
+## Portrait and contact invitation — October 6, 2026
+
+Selected IMG_3910.JPG for its front-facing smile and academic setting. The original photo is stored as images/qingyue-jiao.jpg and framed with CSS, preserving the original pixels. The sidebar uses a responsive circular crop. Updated the homepage invitation to research collaborations and internship opportunities with an email link.

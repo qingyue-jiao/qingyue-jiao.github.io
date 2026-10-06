@@ -1,7 +1,7 @@
 <div class="profile-card" itemscope itemtype="https://schema.org/Person">
   <div class="profile-intro">
     {% if site.author.avatar and site.author.avatar != '' %}
-      <img class="profile-photo" src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}" width="180" height="180" fetchpriority="high">
+      <div class="profile-photo"><img src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }} at MICCAI 2026" width="1365" height="2048" fetchpriority="high"></div>
     {% else %}
       <div class="profile-monogram" aria-hidden="true">QJ</div>
     {% endif %}

@@ -10,7 +10,7 @@ site_theme: default
 title_separator: "|"
 author:
   name: "Qingyue (Sarah) Jiao"
-  avatar: ""
+  avatar: /images/qingyue-jiao.jpg
   bio: "Ph.D. Candidate in Computer Science and Engineering"
   employer: University of Notre Dame
   location: Notre Dame, Indiana
