@@ -40,3 +40,7 @@ Removed the duplicate homepage resume/email/LinkedIn action row at the user’s 
 ## Centering and personal accent update — October 6, 2026
 
 Reduced the aligned header, content, and footer containers from 1160px to 1000px. Desktop sidebar is 200px with a 44px gap, giving the main text approximately 684px. Stacked layout starts at 760px. The accent is ink blue #465c88, with hover #304568 and a subtle iris-tinted initials background #f2f3f9.
+
+## Mulberry palette — October 6, 2026
+
+Updated the accent to mulberry #874c68, hover #68374f, and the initials background to #f8f2f5. The centered layout and content are unchanged.
