@@ -1,6 +1,6 @@
 # Content sources and outstanding resources
 
-Content is based on `QingyueJ-nd/Resume/main.tex` (blob `bb28fcd81cc0b7a1f16131c944a04188805d6ec2`), reviewed October 6, 2026. The CV PDF was compiled from that source. Publication statuses follow the resume; papers are grouped by research topic, with individual publication statuses retained. No citation counts are claimed.
+Content is based on `QingyueJ-nd/Resume/main.tex` (blob `a65ee95f68c8ad1b1997b199d4e932cc3a105f47`), reviewed November 7, 2026. The CV PDF was compiled from that source. Publication statuses follow the resume, including the user-provided Node-as-Agent venue update to SE4AgenticAI @ IEEE BigData 2026. Papers are grouped by research topic, with individual publication statuses retained. No citation counts are claimed.
 
 Ming Ho Kwok’s academic site inspired the clear sidebar, biography, news, and publication organization; its personal content and images were not copied. The template is Academic Pages, as requested.
 

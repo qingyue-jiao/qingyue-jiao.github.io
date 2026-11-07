@@ -45,7 +45,7 @@
     "id": "reagan",
     "title": "Node-as-Agent: Graph Agentic Network",
     "authors": "Minghao Guo, Xi Zhu, <strong>Qingyue Jiao</strong>, Xiujin Liu, Haochen Xue, Chong Zhang, Shuhang Lin, Jingyuan Huang, Ziyi Ye, Yongfeng Zhang.",
-    "venue": "HCRS Workshop @ The Web Conference 2026",
+    "venue": "SE4AgenticAI @ IEEE BigData 2026",
     "status": "",
     "category": "published",
     "links": [
@@ -82,9 +82,9 @@
     "id": "openpm",
     "title": "OpenPM: Auditable Point-in-Time Evaluation for LLM Portfolio-Management Agents",
     "authors": "Xinying Cai<sup>*</sup>, Minghao Guo<sup>*</sup>, Jiahe Liu, <strong>Qingyue Jiao</strong>, Jiaojiao Han, Bangwei Guo, Yitao Long, Yuxuan Chen, Bohan Wu, Ruochen Wen, Wenxi Dai, Dimitris N. Metaxas, Raymond Li.",
-    "venue": "ACM SIGKDD Explorations",
-    "status": "Under review, 2026",
-    "category": "review",
+    "venue": "ACM SIGKDD Explorations 2026",
+    "status": "",
+    "category": "published",
     "links": [
       {
         "label": "arXiv",
